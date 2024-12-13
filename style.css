@@ -1,0 +1,89 @@
+*{
+    padding:0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-menu{
+    float: right;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 1.1rem;
+}
+.nav-navbar{
+    display: flex;
+}
+.brand-name{
+    float: left;
+}
+.navbar{
+    margin: 35px;
+}
+.menu-text h1 p{
+    float: right;
+}
+.menu-image img{
+    float: left;
+    margin-right: 35px;
+}
+.containers{
+    margin: 35px;
+}
+button{
+    padding: 10px;
+    background-color:violet;
+    font-size: 1.1rem;
+}
+.specs-heading h1{
+    font-size: 2.4rem;
+    text-shadow: 1px 5px 7px blue;
+}
+.specs{
+    margin-bottom: 35px;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.row{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    margin: 35px;
+}
+.card-body{
+    padding: 5px;
+}
+.col-1{
+    grid-row: 1;
+    grid-column:1 ;
+    margin-right: 55px;
+
+}
+.col-2{
+    grid-row: 1;
+    grid-column:2 ;
+    margin-right: 55px;
+}
+.col-3{
+    grid-row: 1;
+    grid-column: 3;
+    margin-right: 55px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.row-2{
+    display: grid;
+    justify-content:center;
+    align-items: center;
+    margin: 35px;
+}
